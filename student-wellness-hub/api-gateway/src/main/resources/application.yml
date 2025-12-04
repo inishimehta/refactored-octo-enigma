@@ -19,3 +19,8 @@ spring:
           uri: http://event-service:8082
           predicates:
             - Path=/api/events,/api/events/**
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://keycloak:8080/realms/gbc-wellness/protocol/openid-connect/certs

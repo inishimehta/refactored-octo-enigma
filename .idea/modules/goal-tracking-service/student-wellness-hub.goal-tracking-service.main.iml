@@ -25,6 +25,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-webflux:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-redis:3.5.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.5.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-security:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-jakarta9:1.15.5" level="project" />
@@ -39,6 +41,12 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-reactor-netty:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-redis:3.5.5" level="project" />
     <orderEntry type="library" name="Gradle: io.lettuce:lettuce-core:6.6.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-oauth2-resource-server:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-oauth2-jose:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-config:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-web:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.2.12" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.5.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.5.7" level="project" />
@@ -60,7 +68,6 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.2" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.19.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.2.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.48" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.48" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:10.1.48" level="project" />
@@ -73,6 +80,9 @@
     <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.128.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.128.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.128.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-oauth2-core:6.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.nimbusds:nimbus-jose-jwt:9.37.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:6.5.6" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.3" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:2.0.17" level="project" />
@@ -90,6 +100,7 @@
     <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.128.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.128.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.128.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.24.3" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.128.Final" level="project" />
