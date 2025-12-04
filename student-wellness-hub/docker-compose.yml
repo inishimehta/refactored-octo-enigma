@@ -1,6 +1,4 @@
-﻿version: "3.9"
-
-services:
+﻿services:
   postgres:
     image: postgres:15
     container_name: postgres
@@ -9,17 +7,16 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: eventdb
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
-          - wellness-network
+      - wellness-network
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -U postgres -d eventdb" ]
       interval: 10s
       timeout: 5s
       retries: 5
-
 
   event-service:
     build:
@@ -27,7 +24,7 @@ services:
       dockerfile: Dockerfile
     container_name: event-service
     ports:
-      - "8082:8082"
+      - "8086:8082"
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/eventdb
@@ -90,10 +87,6 @@ services:
     networks:
       - wellness-network
 
-
-  # -----------------------------------
-  # MongoDB for Goal Tracking Service
-  # -----------------------------------
   mongodb-goal:
     image: mongo:7.0.5
     container_name: mongodb-goal
@@ -103,15 +96,12 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
       MONGO_INITDB_DATABASE: goal_tracking_db
     ports:
-      - "27018:27017"   # external port 27018 -> internal 27017
+      - "27018:27017"
     volumes:
       - mongo_goal_data:/data/db
     networks:
       - wellness-network
 
-  # -----------------------------------
-  # Goal Tracking Microservice
-  # -----------------------------------
   goal-tracking-service:
     build:
       context: ./goal-tracking-service
@@ -119,12 +109,38 @@ services:
     container_name: goal-tracking-service
     restart: unless-stopped
     ports:
-      - "8085:8085"  # external 8085 -> internal 8085
+      - "8085:8085"
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATA_MONGODB_URI: mongodb://admin:password@mongodb-goal:27017/goal_tracking_db?authSource=admin
     depends_on:
       - mongodb-goal
+    networks:
+      - wellness-network
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0.5
+    container_name: keycloak
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_DB: dev-mem
+    command: ["start-dev"]
+    ports:
+      - "8081:8080"
+    networks:
+      - wellness-network
+
+  api-gateway:
+    build:
+      context: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "8084:8080"
+    depends_on:
+      - wellness-resource-service
+      - goal-tracking-service
+      - event-service
     networks:
       - wellness-network
 

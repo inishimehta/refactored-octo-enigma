@@ -5,9 +5,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/student-wellness-hub" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Gradle/gradle-9.0.0" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/student-wellness-hub" />
+            <option value="$PROJECT_DIR$/student-wellness-hub/api-gateway" />
             <option value="$PROJECT_DIR$/student-wellness-hub/event-service" />
             <option value="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service" />
             <option value="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service" />
@@ -15,7 +17,17 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/student-wellness-hub/api-gateway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Gradle/gradle-9.0.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/student-wellness-hub/api-gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/student-wellness-hub/student-resource-service" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Gradle/gradle-9.0.0" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/student-wellness-hub/student-resource-service" />
@@ -24,6 +36,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Gradle/gradle-9.0.0" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service" />

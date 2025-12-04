@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: wellness
+          uri: http://wellness-resource-service:8091
+          predicates:
+            - Path=/api/resources,/api/resources/**
+        - id: goals
+          uri: http://goal-tracking-service:8085
+          predicates:
+            - Path=/api/goals,/api/goals/**
+        - id: events
+          uri: http://event-service:8082
+          predicates:
+            - Path=/api/events,/api/events/**

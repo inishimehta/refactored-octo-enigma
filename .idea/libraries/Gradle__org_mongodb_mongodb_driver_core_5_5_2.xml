@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mongodb:mongodb-driver-core:5.5.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.mongodb" artifactId="mongodb-driver-core" version="5.5.2" baseVersion="5.5.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/5.5.2/6d73a83aad4f638c81ad4e50019bac17100a0b68/mongodb-driver-core-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/5.5.2/b2ddf388049970208e7c299d0f104ba9c63e328c/mongodb-driver-core-5.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

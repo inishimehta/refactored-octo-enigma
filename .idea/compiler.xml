@@ -13,7 +13,28 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="21" />
+      <module name="api-gateway.main" target="21" />
+      <module name="api-gateway.test" target="21" />
       <module name="student-resource-service" target="21" />
+      <module name="student-wellness-hub" target="21" />
+      <module name="student-wellness-hub.api-gateway" target="21" />
+      <module name="student-wellness-hub.api-gateway.main" target="21" />
+      <module name="student-wellness-hub.api-gateway.test" target="21" />
+      <module name="student-wellness-hub.event-service" target="21" />
+      <module name="student-wellness-hub.event-service.main" target="21" />
+      <module name="student-wellness-hub.event-service.test" target="21" />
+      <module name="student-wellness-hub.goal-tracking-service" target="21" />
+      <module name="student-wellness-hub.goal-tracking-service.main" target="21" />
+      <module name="student-wellness-hub.goal-tracking-service.test" target="21" />
+      <module name="student-wellness-hub.main" target="21" />
+      <module name="student-wellness-hub.test" target="21" />
+      <module name="student-wellness-hub.wellness-resource-service" target="21" />
+      <module name="student-wellness-hub.wellness-resource-service.main" target="21" />
+      <module name="student-wellness-hub.wellness-resource-service.test" target="21" />
+      <module name="wellness-resource-service" target="21" />
+      <module name="wellness-resource-service.main" target="21" />
+      <module name="wellness-resource-service.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

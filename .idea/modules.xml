@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/comp3095_assignment1_group27.iml" filepath="$PROJECT_DIR$/.idea/comp3095_assignment1_group27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/student-wellness-hub.iml" filepath="$PROJECT_DIR$/.idea/modules/student-wellness-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.iml" filepath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.iml" filepath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/student-wellness-hub.main.iml" filepath="$PROJECT_DIR$/.idea/modules/student-wellness-hub.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/student-wellness-hub.test.iml" filepath="$PROJECT_DIR$/.idea/modules/student-wellness-hub.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellness-resource-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.test.iml" />
     </modules>
   </component>
 </project>
