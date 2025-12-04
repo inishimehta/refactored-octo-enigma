@@ -1,0 +1,13 @@
+package ca.gbc.goaltrackingservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GoalTrackingServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GoalTrackingServiceApplication.class, args);
+    }
+
+}
