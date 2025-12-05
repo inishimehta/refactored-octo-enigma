@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb996afe-d59a-4164-ad77-b22bc32264f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/student-wellness-hub/api-gateway/src/main/java/ca/gbc/apigateway/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-wellness-hub/event-service/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api-gateway/student-wellness-hub.api-gateway.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/event-service/student-wellness-hub.event-service.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/goal-tracking-service/student-wellness-hub.goal-tracking-service.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wellness-resource-service.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wellness-resource-service/student-wellness-hub.wellness-resource-service.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/api-gateway/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/api-gateway/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/event-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/event-service/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/event-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/event-service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/goal-tracking-service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/wellness-resource-service/src/main/resources/application-docker.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-wellness-hub/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student-wellness-hub/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +168,7 @@
       <workItem from="1764824108524" duration="264000" />
       <workItem from="1764824411142" duration="549000" />
       <workItem from="1764826327016" duration="9144000" />
+      <workItem from="1764889208640" duration="3074000" />
     </task>
     <servers />
   </component>

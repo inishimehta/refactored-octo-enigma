@@ -118,16 +118,37 @@
     networks:
       - wellness-network
 
+  postgres-keycloak:
+    image: postgres:15
+    container_name: postgres-keycloak
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5434:5432"               # host 5434 -> container 5432 (avoid clash with others)
+    volumes:
+      - ./docker/integrated/keycloak/db-data:/var/lib/postgresql/data
+    networks:
+      - wellness-network
+
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.5
     container_name: keycloak
+    command: ["start-dev", "--import-realm"]
     environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: postgres-keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: password
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
-      KC_DB: dev-mem
-    command: ["start-dev"]
     ports:
       - "8081:8080"
+    volumes:
+      - ./docker/integrated/keycloak/realms:/opt/keycloak/data/import
+    depends_on:
+      - postgres-keycloak
     networks:
       - wellness-network
 
